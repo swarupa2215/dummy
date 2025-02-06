@@ -1,0 +1,10 @@
+<pipeline_name>
+    <pipeline name="da">
+        <version>1.0</version>
+        <value>22</value>
+    </pipeline>
+    <pipeline name="de">
+        <version>1.0</version>
+        <value>22</value>
+    </pipeline>
+</pipeline_name>
