@@ -72,5 +72,23 @@ pipeline {
                 }
             }
         }
+         stage('Commit and Push Changes') {
+            steps {
+                script {
+                    // Ensure git is configured (if not already configured)
+                    sh 'git config --global user.email "manchalaswarupa1522@gmail.com"'
+                    sh 'git config --global user.name "swarupa"'
+
+                    // Add all changes to staging area
+                    sh 'git add .'
+
+                    // Commit changes with a message
+                    sh 'git commit -m "Automated commit message"'
+
+                    // Push changes to the repository
+                    sh 'git push origin main'  // Replace 'main' with your branch name
+                }
+            }
+        }
     }
 }
