@@ -80,7 +80,7 @@ pipeline {
                     sh 'git config --global user.name "swarupa"'
 
                     // Add all changes to staging area
-                    sh 'git add .'
+                    sh 'git add Pipeline_XML'
 
                     // Commit changes with a message
                     sh 'git commit -m "Automated commit message"'
