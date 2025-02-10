@@ -1,5 +1,3 @@
-import groovy.xml.XmlUtil
-//import groovy.xml.XmlSlurper
 pipeline {
     agent any
     parameters {
@@ -20,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Split the pipeline names by comma
-                    def pipelineName = params.PIPELINE_NAME.split(',')
+                    def selectedPipelineNames = params.PIPELINE_NAME.split(',')
                     def newVersion = params.VERSION
                     def newValue = params.VALUE
 
@@ -32,20 +30,38 @@ pipeline {
                     }
 
                     // Parse the XML using XmlSlurper
-                    def xml = new XmlSlurper().parse(xmlFile)
+                    def xmlg = new XmlSlurper().parse(xmlFile)
 
                     // Iterate over the pipeline nodes and update the selected ones
-                    xml.pipeline.each { pipeline ->
-    	                if (pipeline.@name == pipelineName) {
-       		                pipeline.version.replaceBody(newVersion)
-        		            pipeline.value.replaceBody(newValue)
-                	        }
-	                    }
-                    
+                    xmlg.pipeline.each { pipeline ->
+                        def pipelineName = pipeline.@name
+                        if (selectedPipelineNames.contains(pipelineName)) {
+                            // Update version and value fields
+                            def versionNode = pipeline.version[0]
+                            def valueNode = pipeline.value[0]
+
+                            // Modify the version and value nodes if they exist
+                            if (versionNode && valueNode) {
+                                versionNode.replaceBody(newVersion)
+                                valueNode.replaceBody(newValue)
+
+                                echo "Updated pipeline '${pipelineName}' with version ${newVersion} and value ${newValue}"
+                            }
+                        }
+                    }
                     try{
 
-                   	xmlFile.text = XmlUtil.serialize(xml)
-		            println "XML updated successfully for pipeline: ${pipelineName}"
+                    // Serialize the updated XML to a string
+                    def updatedXmlString = groovy.xml.XmlUtil.serialize(xmlg)
+
+                    // Print the updated XML to the console
+                    echo "Updated XML content:\n${updatedXmlString}"
+                     def xmlFilePath = "${WORKSPACE}/${Pipeline_XML}"
+                     echo "${xmlFilePath}"
+
+                    // Write the updated XML back to the file
+                    writeFile(file: xmlFilePath, text: updatedXmlString)
+                    echo "XML updated successfully!"
                     } catch (Exception e) {
                         echo "An error occurred: ${e.getMessage()}"
                         // Explicitly mark the pipeline as failed and abort
