@@ -1,3 +1,5 @@
+<paths>
+ <new>
 <pipelines>
  <pipeline name="da">
     <version>1.0</version>
@@ -8,3 +10,5 @@
     <value>22</value>
  </pipeline>
 </pipelines>
+ </new>
+</paths>
