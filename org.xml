@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><pipeline_name>
   <pipeline name="da">
-    <version>2.0</version>
-    <value>99</value>
+    <version>3.0</version>
+    <value>89</value>
   </pipeline>
   <pipeline name="de">
-    <version>2.0</version>
-    <value>99</value>
+    <version>3.0</version>
+    <value>89</value>
   </pipeline>
 </pipeline_name>
