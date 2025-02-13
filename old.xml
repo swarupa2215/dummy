@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><paths>
-  <new>
+  <gate>
     <pipelines>
       <pipeline name="da">
         <version>1.0</version>
@@ -10,5 +10,5 @@
         <value>22</value>
       </pipeline>
     </pipelines>
-  </new>
+  </gate>
 </paths>
