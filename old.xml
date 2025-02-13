@@ -2,8 +2,8 @@
   <gate>
     <pipelines>
       <pipeline name="da">
-        <version>2.0</version>
-        <value>67</value>
+        <version>4</version>
+        <value>5</value>
       </pipeline>
       <pipeline name="de">
         <version>2.0</version>
