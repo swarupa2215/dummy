@@ -1,14 +1,14 @@
-<paths>
- <new>
-<pipelines>
- <pipeline name="da">
-    <version>1.0</version>
-    <value>22</value>
- </pipeline>
- <pipeline name="de">
-    <version>1.0</version>
-    <value>22</value>
- </pipeline>
-</pipelines>
- </new>
+<?xml version="1.0" encoding="UTF-8"?><paths>
+  <new>
+    <pipelines>
+      <pipeline name="da">
+        <version>1.0</version>
+        <value>22</value>
+      </pipeline>
+      <pipeline name="de">
+        <version>1.0</version>
+        <value>22</value>
+      </pipeline>
+    </pipelines>
+  </new>
 </paths>
