@@ -7,7 +7,7 @@
       </pipeline>
       <pipeline name="de">
         <version>5</version>
-        <value>2</value>
+        <value>c</value>
       </pipeline>
     </pipelines>
   </gate>
