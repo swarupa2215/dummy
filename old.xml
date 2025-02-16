@@ -6,8 +6,8 @@
         <value>8</value>
       </pipeline>
       <pipeline name="de">
-        <version>5</version>
-        <value>c</value>
+        <version>6</version>
+        <value/>
       </pipeline>
     </pipelines>
   </gate>
