@@ -2,11 +2,11 @@
   <gate>
     <pipelines>
       <pipeline name="da">
-        <version>5</version>
+        <version>1.8</version>
         <value>9</value>
       </pipeline>
       <pipeline name="de">
-        <version>45</version>
+        <version>2.3</version>
         <value>69</value>
       </pipeline>
     </pipelines>
