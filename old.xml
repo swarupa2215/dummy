@@ -15,8 +15,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_1</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_1</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>sasd</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>assad</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>ass</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>ssds</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_bc">
         <KUBERNETES_NAMESPACE>namespace2</KUBERNETES_NAMESPACE>
@@ -32,8 +32,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_2</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_2</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hgg</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>ass</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>ssds</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>ttg</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>fggt</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="pipeline3">
         <KUBERNETES_NAMESPACE>namespace3</KUBERNETES_NAMESPACE>
@@ -49,8 +49,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_3</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_3</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>gtuitui</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>4tr4336y</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>yhgf</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>fsx</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_ab_fg1">
         <KUBERNETES_NAMESPACE>namespace1</KUBERNETES_NAMESPACE>
@@ -66,8 +66,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_1</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_1</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>ttg</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>fggt</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>sas</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>fsa</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_bc1">
         <KUBERNETES_NAMESPACE>namespace2</KUBERNETES_NAMESPACE>
