@@ -32,8 +32,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_2</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_2</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hgg</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>njjnjn</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>gfhff</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>sdfass</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>dfasdd</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="pipeline3">
         <KUBERNETES_NAMESPACE>namespace3</KUBERNETES_NAMESPACE>
@@ -49,8 +49,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_3</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_3</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>ffdg</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>ddff</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>gtuitui</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>4tr4336y</SCOPING_VARIANT_FILE>
       </PIPELINE>
     </PIPELINE_VALUES>
   </PARAMETERS>
