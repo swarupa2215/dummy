@@ -32,8 +32,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_2</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_2</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hgg</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>hhgg</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>hhhggf</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>njjnjn</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>gfhff</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="pipeline3">
         <KUBERNETES_NAMESPACE>namespace3</KUBERNETES_NAMESPACE>
