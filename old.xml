@@ -15,8 +15,8 @@
         <cbcUpgradeHelmExtraValue>extra_helm_1</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_1</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>aas</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>sffd</SCOPING_VARIANT_FILE>
+        <ORG_CONFIG_FILE>njjnjn</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>gfhff</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_bc">
         <KUBERNETES_NAMESPACE>namespace2</KUBERNETES_NAMESPACE>
