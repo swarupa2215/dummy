@@ -14,9 +14,9 @@
         <CONTENT_UPDATE_TO>update_to_1</CONTENT_UPDATE_TO>
         <cbcUpgradeHelmExtraValue>extra_helm_1</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_1</TEST_SCENARIO>
-        <DDCI_CLUSTER_ID>cluster_id_1</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>24/09sjjs.json</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>24/09sjjs.py</SCOPING_VARIANT_FILE>
+        <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
+        <ORG_CONFIG_FILE>aas</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>sffd</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_bc">
         <KUBERNETES_NAMESPACE>namespace2</KUBERNETES_NAMESPACE>
@@ -31,9 +31,9 @@
         <CONTENT_UPDATE_TO>update_to_2</CONTENT_UPDATE_TO>
         <cbcUpgradeHelmExtraValue>extra_helm_2</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_2</TEST_SCENARIO>
-        <DDCI_CLUSTER_ID>cluster_id_2</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>37/jssh/wss.json</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>37/jssh/wss.py</SCOPING_VARIANT_FILE>
+        <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
+        <ORG_CONFIG_FILE>ssda</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>t5f</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="pipeline3">
         <KUBERNETES_NAMESPACE>namespace3</KUBERNETES_NAMESPACE>
@@ -48,9 +48,9 @@
         <CONTENT_UPDATE_TO>update_to_3</CONTENT_UPDATE_TO>
         <cbcUpgradeHelmExtraValue>extra_helm_3</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_3</TEST_SCENARIO>
-        <DDCI_CLUSTER_ID>cluster_id_3</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>2406/hgggs.json</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>2406/hgggs.py</SCOPING_VARIANT_FILE>
+        <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
+        <ORG_CONFIG_FILE>aad</ORG_CONFIG_FILE>
+        <SCOPING_VARIANT_FILE>assd</SCOPING_VARIANT_FILE>
       </PIPELINE>
     </PIPELINE_VALUES>
   </PARAMETERS>
