@@ -15,7 +15,7 @@
         <cbcUpgradeHelmExtraValue>extra_helm_1</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_1</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>fg</ORG_CONFIG_FILE>
+        <ORG_CONFIG_FILE>aas</ORG_CONFIG_FILE>
         <SCOPING_VARIANT_FILE>adv</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_bc">
@@ -32,7 +32,7 @@
         <cbcUpgradeHelmExtraValue>extra_helm_2</cbcUpgradeHelmExtraValue>
         <TEST_SCENARIO>scenario_2</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hgg</DDCI_CLUSTER_ID>
-        <ORG_CONFIG_FILE>-bc</ORG_CONFIG_FILE>
+        <ORG_CONFIG_FILE>dcc</ORG_CONFIG_FILE>
         <SCOPING_VARIANT_FILE>asl</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="pipeline3">
@@ -50,7 +50,7 @@
         <TEST_SCENARIO>scenario_3</TEST_SCENARIO>
         <DDCI_CLUSTER_ID>hi</DDCI_CLUSTER_ID>
         <ORG_CONFIG_FILE>pip3</ORG_CONFIG_FILE>
-        <SCOPING_VARIANT_FILE>sc3</SCOPING_VARIANT_FILE>
+        <SCOPING_VARIANT_FILE>fcv</SCOPING_VARIANT_FILE>
       </PIPELINE>
       <PIPELINE name="_ab_fg1">
         <KUBERNETES_NAMESPACE>namespace1</KUBERNETES_NAMESPACE>
